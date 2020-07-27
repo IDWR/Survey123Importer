@@ -1,0 +1,68 @@
+{
+	"ConnectionStrings": {
+		"MeasurementDatabaseClient": "Driver={ODBC Driver 17 for SQL Server};Server=SERVER\\INSTANCE;Database=DatabaseName;Trusted_Connection=yes;Application Name=Survey123Import"
+	},
+	"SurveyHosts": {
+		"ArcGisDotCom": {
+			"url": "https://www.arcgis.com/",
+        	"username": "Username",
+        	"password": "Password"
+		}
+	},
+	"Surveys": {
+		"61E": {
+			"host": "ArcGisDotCom",
+			"id": "dcd075bbca8941d38c1c712b4e7f7a70",
+			"fields": {
+				"LocationID": "LocationID",
+				"MeasurementTypeId": "MeasurementType",
+				"Discharge": "Total_CFS_Today",
+				"DiversionDate": "DateOfVisit",
+				"UserId": "PersonDoingSurvey",
+				"DeviceType": "Diversion_Type"
+			}
+		}
+	},
+	"Logging": {
+		"version": 1,
+		"disable_existing_loggers": false,
+		"formatters": {
+			"standard": {
+				"format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+			},
+			"minimal": {
+				"format": "%(levelname)s - %(message)s"
+			}
+		},
+		"handlers": {
+			"console": {
+				"level": "INFO",
+				"formatter": "minimal",
+				"class": "logging.StreamHandler",
+				"stream": "ext://sys.stdout"
+			},
+			"rollingFile": {
+				"level": "INFO",
+				"formatter": "standard",
+				"class": "logging.handlers.RotatingFileHandler",
+				"filename": ".\\logs\\Survey123Import.log",
+				"mode": "a+"
+			},
+			"smtp": {
+				"level": "ERROR",
+				"formatter": "standard",
+				"class": "logging.handlers.SMTPHandler",
+				"mailhost": "mailhost.mail.com",
+				"fromaddr": "Mark.Knopfler@chet.atkins.com",
+				"toaddrs": ["username@domain.com"],
+				"subject": "Error in Survey123Import"
+			}
+		},
+		"loggers": {
+			"": {
+				"handlers": ["console","rollingFile","smtp"],
+				"level": "DEBUG",
+				"propagate": true
+			}
+		}
+	}}

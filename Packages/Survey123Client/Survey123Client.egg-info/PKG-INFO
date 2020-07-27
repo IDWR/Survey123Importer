@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Survey123Client
+Version: 1.0.0
+Summary: Python API for interacting with Esri Survey123
+Home-page: UNKNOWN
+Author: Dan Narsavage
+Author-email: Dan.Narsavage@idwr.idaho.gov
+License: UNKNOWN
+Description: # DWR Central
+        
+        This is a package for interacting with Survey123, primarily for downloading data. You should thank your lucky stars that I'm here to give you such garbage.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

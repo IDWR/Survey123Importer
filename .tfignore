@@ -1,0 +1,8 @@
+*/__pycache__/*
+logs/*
+Packages/*/build
+Packages/*/dist
+Packages/*/*.egg-info
+*/*.pyc
+venv/
+Wheels/

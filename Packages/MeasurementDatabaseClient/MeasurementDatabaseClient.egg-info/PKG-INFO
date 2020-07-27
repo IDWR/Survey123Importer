@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: MeasurementDatabaseClient
+Version: 1.0.0
+Summary: Python API for interacting with the MeasurementDatabase database
+Home-page: UNKNOWN
+Author: Dan Narsavage
+Author-email: Dan.Narsavage@idwr.idaho.gov
+License: UNKNOWN
+Description: #
+        
+        This is a package for interacting with internal databases that house measurement data.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

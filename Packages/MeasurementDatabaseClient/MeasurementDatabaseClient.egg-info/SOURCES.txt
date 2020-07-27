@@ -1,0 +1,11 @@
+README.md
+setup.py
+MeasurementDatabaseClient/WaterDistrictDataService.py
+MeasurementDatabaseClient/__init__.py
+MeasurementDatabaseClient/exceptions.py
+MeasurementDatabaseClient/repositories.py
+MeasurementDatabaseClient.egg-info/PKG-INFO
+MeasurementDatabaseClient.egg-info/SOURCES.txt
+MeasurementDatabaseClient.egg-info/dependency_links.txt
+MeasurementDatabaseClient.egg-info/requires.txt
+MeasurementDatabaseClient.egg-info/top_level.txt

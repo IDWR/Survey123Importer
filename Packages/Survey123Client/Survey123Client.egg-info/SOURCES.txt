@@ -1,0 +1,8 @@
+README.md
+setup.py
+Survey123Client/__init__.py
+Survey123Client.egg-info/PKG-INFO
+Survey123Client.egg-info/SOURCES.txt
+Survey123Client.egg-info/dependency_links.txt
+Survey123Client.egg-info/requires.txt
+Survey123Client.egg-info/top_level.txt
